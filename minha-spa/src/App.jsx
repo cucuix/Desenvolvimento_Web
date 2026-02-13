@@ -9,6 +9,13 @@ function App(){
   return (
     <BrowserRouter>
       <Navbar/>
+
+      <main style={{padding: '2px'}}>
+        <Routes>
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/sobre' element={<Sobre/>}></Route>
+        </Routes>
+      </main>
     </BrowserRouter>
   );
 }

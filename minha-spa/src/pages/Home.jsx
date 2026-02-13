@@ -11,7 +11,6 @@ export function Home(){
                 <p>Se você está vendo isso, é pq funcionou!</p>
             </div>
         </div>
-
     );
 }
 //SPA é um único arquivo HTML que usa Virtual DOM para troca de componentes
