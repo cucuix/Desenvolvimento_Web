@@ -35,6 +35,6 @@ function App() {
 
 export default App
 //define o que o carro faz. É o componente principal da aplicação
-//Ele organiza onde a Navbar fica, quais as Routes(rotas)
+//Ele organiza onde a Nav--template reactbar fica, quais as Routes(rotas)
 //e agrupa todos os outros sub-componentes
 //coloco tudo que quero q apareça em todas as páginas
