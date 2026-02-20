@@ -7,6 +7,9 @@
     background-image: linear-gradient(to top, #646cff, #4b7aff, #3087ff, #1292ff, #009cff);
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -28,7 +31,7 @@
 }
 
 .link:hover {
-    color: #646cff;
+    color: #0000009d;
 }
 
 .active {
