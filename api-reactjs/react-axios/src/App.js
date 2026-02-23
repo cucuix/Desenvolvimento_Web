@@ -8,7 +8,7 @@ export default function App() {
     useEffect(() =>{
       async function loadUser() {
         try{
-          const response = await api.get('/user/cucuix');
+          const response = await api.get('/users/cucuix');
           setUser(response.data);
         } catch(error){
           console.log('Erro', error)
